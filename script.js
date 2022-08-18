@@ -51,7 +51,7 @@ filterInput.addEventListener('input', (e) => {
     }
 });
 let links = "";
-$.getJson("links.json", function(data) {
+$.getJSON("links.json", function(data) {
     links = data;
 });
 
