@@ -54,7 +54,7 @@ let links = "";
 $.getJSON("links.json", function(data) {
     links = data;
 });
-
+console.log(links);
 /*const links = [
     {
         name: 'Portfolio',
