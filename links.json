@@ -2,7 +2,7 @@
     {
         name: 'Portfolio',
         description: 'My own place on the internet',
-        url: 'https://2kabhishek.github.io',
+        url: 'https://tandu-dev.github.io',
         icon: 'fa-brands fa-fort-awesome',
         color: '#1688f0'
     },
