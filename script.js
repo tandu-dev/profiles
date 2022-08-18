@@ -51,7 +51,9 @@ filterInput.addEventListener('input', (e) => {
     }
 });
 
-const links = [
+const links = $.getJson("links.json");
+
+/*const links = [
     {
         name: 'Portfolio',
         description: 'My own place on the internet',
@@ -178,6 +180,6 @@ const links = [
         icon: 'fa-brands fa-behance',
         color: '#0057ff'
     }
-];
+];*/
 
 displayLinks(links);
