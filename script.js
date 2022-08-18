@@ -50,7 +50,10 @@ filterInput.addEventListener('input', (e) => {
         }
     }
 });
-let links = $.getJson("links.json");
+let links = "";
+$.getJson("links.json", function(data) {
+    links = data;
+});
 
 /*const links = [
     {
